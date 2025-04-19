@@ -1,0 +1,28 @@
+# === Python / Django ===
+*.pyc
+__pycache__/
+*.sqlite3
+*.pyo
+*.pyd
+*.egg-info/
+.env
+venv/
+.env.local
+.env.*.local
+
+# === Node / React ===
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === OS / Editor ===
+.DS_Store
+*.log
+*.swp
+.idea/
+.vscode/
+Thumbs.db
